@@ -11,7 +11,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-       array.slice()
+       array.slice(1)
       return array
 }
 
@@ -48,6 +48,6 @@ function accessElementInArray() {
 }
 
 function removeElementFromEndOfArray(array) {
-      
-      return 
+
+      return
 }

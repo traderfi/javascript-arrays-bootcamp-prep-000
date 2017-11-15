@@ -5,6 +5,11 @@ var chocolateBars = [
     'skittles'
 ];
 
+function removeElementFromBeginningOfArray(array) {
+      var fix = array.slice()
+      return fix
+}
+
 function destructivelyRemoveElementFromBeginningOfArray(array) {
       return array.shift()
 }
@@ -39,10 +44,7 @@ function removeElementFromEndOfArray(array) {
         return
 }
 
-function removeElementFromBeginningOfArray(array) {
-      var fix = array.slice()
-      return fix
-}
+
 
 function destructivelyRemoveElementFromEndOfArray() {
     return

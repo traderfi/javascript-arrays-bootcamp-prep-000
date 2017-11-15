@@ -44,6 +44,6 @@ function removeElementFromBeginningOfArray(array) {
       return fix
 }
 
-function accessElementInArray(array[n]) {
-      return
+function accessElementInArray(array, n) {
+      return array[n]
 }

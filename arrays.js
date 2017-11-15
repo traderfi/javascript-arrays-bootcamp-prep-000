@@ -39,7 +39,9 @@ function removeElementFromEndOfArray(array) {
         return
 }
 
-
+function removeElementFromBeginningOfArray() {
+  
+}
 
 function destructivelyRemoveElementFromEndOfArray() {
 

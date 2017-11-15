@@ -49,5 +49,3 @@ function accessElementInArray() {
 function removeElementFromEndOfArray(array) {
       return
 }
-
-

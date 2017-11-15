@@ -46,6 +46,6 @@ function accessElementInArray() {
 }
 
 function removeElementFromBeginningOfArray(array) {
-       array.slice(1)
-      return array
+      var fix = array.slice(1)
+      return fix
 }

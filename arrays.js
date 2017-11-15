@@ -41,7 +41,6 @@ function removeElementFromEndOfArray(array) {
 
 function removeElementFromBeginningOfArray(array) {
       var fix = array.slice()
-
       return fix
 }
 

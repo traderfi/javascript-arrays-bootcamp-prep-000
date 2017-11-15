@@ -29,15 +29,6 @@ function addElementToEndOfArray (array,element) {
       return [...array, element]
 }
 
-
-
-function destructivelyAddElementToBeginningOfArray(array,element) {
-        array.unshift(element)
-        return array
-}
-
-
-
 function destructivelyAddElementToEndOfArray (array,element) {
    array.push(element)
    return array
@@ -50,4 +41,9 @@ function accessElementInArray() {
 function removeElementFromEndOfArray(array) {
 
       return
+}
+
+function destructivelyAddElementToBeginningOfArray(array,element) {
+        array.unshift(element)
+        return array
 }

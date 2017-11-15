@@ -39,10 +39,12 @@ function removeElementFromEndOfArray(array) {
         return
 }
 
-function removeElementFromBeginningOfArray() {
-        
+function removeElementFromBeginningOfArray(array) {
+      var fix = array.slice()
+
+      return fix
 }
 
 function destructivelyRemoveElementFromEndOfArray() {
-
+    return 
 }

@@ -37,11 +37,11 @@ function destructivelyAddElementToEndOfArray (array,element) {
 }
 
 function accessElementInArray() {
-
+      return
 }
 
 function removeElementFromEndOfArray(array) {
-
+      return
 }
 
 

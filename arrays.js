@@ -41,8 +41,7 @@ function accessElementInArray() {
 }
 
 function removeElementFromEndOfArray(array) {
-        var fix = array
-        return fix.pop()
+      
 }
 
 

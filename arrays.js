@@ -39,13 +39,13 @@ function destructivelyAddElementToEndOfArray (array,element) {
    return array
 }
 
-
+function removeElementFromBeginningOfArray(array) {
+      var fix = array.slice(1)
+      return fix
+}
 
 function accessElementInArray() {
       return
 }
 
-function removeElementFromBeginningOfArray(array) {
-      var fix = array.slice(1)
-      return fix
-}
+
